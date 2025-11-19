@@ -1,0 +1,35 @@
+# Original notebook with sensitive data
+Fatter.ipynb
+
+# Original presentation files
+*.pptx
+*.pdf
+
+# Database credentials or config files
+*.config
+*.ini
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+!sample_data/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db
