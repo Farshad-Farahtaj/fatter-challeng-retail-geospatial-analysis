@@ -1,33 +1,30 @@
-# Fatter Challenge Project
+Retail Geospatial Analytics — Fater S.p.A. Challenge
+Python GeoPandas Folium
 
-## Overview
-This repository contains our collaborative work for a university course project conducted in partnership with Fatter company. The project involved analyzing store locations, sociodemographic data, and geographical information to derive insights about retail store performance and market potential.
+Geospatial analysis of retail store performance and market expansion potential for Fater S.p.A. (Procter & Gamble – Angelini Industries joint venture). Store location data was combined with sociodemographic indicators to identify high-potential distribution areas across Italy.
 
-## Team Members
-This project was completed as a team effort by:
-- Seyyedalireza Khosh solat
-- Shayan Ekramnia
-- Farshad Farahtaj
-- Sara Aboudarda
+Team
+Parham Khosh Solat
+Shayan Ekramnia
+Farshad Farahtaj
+Sara Aboudarda
+Approach
+Store performance doesn't depend only on the store itself — local demographics, population density, and competitor proximity all play a role. The analysis mapped these factors spatially and ran statistical correlations to rank locations by potential.
 
-## Legal Disclaimer
-The original dataset used for this project was provided by Fatter/Fitter Wear company exclusively for educational purposes. **This repository does not contain any original proprietary dataset or confidential information**. All data files included are synthetic samples created only to demonstrate the structure and methodology of the analysis.
+Merged store location data with regional sociodemographic datasets
+Built interactive maps with Folium and GeoPandas to visualize performance patterns
+Extracted and preprocessed data from SQL databases
+Statistical correlation analysis between demographic indicators and store performance metrics
+Project Structure
+├── Fatter_Public.ipynb    # Analysis notebook (synthetic data)
+├── sample_data/           # Synthetic data matching original structure
+├── visualizations/        # Output maps and charts
+└── README.md
+Legal Note
+The original dataset was provided by Fater S.p.A. for educational purposes only. This repository contains synthetic sample data that mirrors the structure of the original — no proprietary data is included. All intellectual property rights remain with Fater S.p.A.
 
-The analysis, findings, and visualizations presented in this project are for academic purposes only and should not be used for commercial decision-making. The names, locations, and performance metrics have been modified to protect the company's proprietary information.
+Course
+Statistical Learning and Data Analysis — University of Naples Federico II Supervisor: Prof. Roberta Siciliano
 
-## Project Structure
-- `Fatter_Public.ipynb`: The main Jupyter notebook containing the analysis code with synthetic data
-- `sample_data/`: Directory containing synthetic sample data that mimics the structure of the original dataset
-- `visualizations/`: Output visualizations and maps generated from the analysis
-
-## Skills Demonstrated
-- Data analysis and preprocessing using Python and pandas
-- Geospatial data visualization with Folium and GeoPandas
-- SQL database interactions
-- Statistical analysis and insights generation
-- Data visualization techniques
-
-## Acknowledgements
-- This project was completed as part of the STATISTICAL LEARNING AND DATA ANALYSIs at University of Naples Federico II under the guidance of professor Roberta Siciliano.
-- Special thanks to Fatter/Fitter Wear company for providing the challenge, dataset, and industry expertise for this educational project
-- We acknowledge that all intellectual property rights related to the original data remain with Fatter/Fitter Wear company
+License
+MIT
